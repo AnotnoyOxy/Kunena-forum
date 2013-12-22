@@ -127,7 +127,6 @@ class KunenaAdminModelConfig extends KunenaModel {
 		$lists ['disemoticons'] = JHtml::_ ( 'select.genericlist', $yesno, 'cfg_disemoticons', 'class="inputbox" size="1"', 'value', 'text', $this->config->disemoticons );
 		$lists ['regonly'] = JHtml::_ ( 'select.genericlist', $yesno, 'cfg_regonly', 'class="inputbox" size="1"', 'value', 'text', $this->config->regonly );
 		$lists ['board_offline'] = JHtml::_ ( 'select.genericlist', $yesno, 'cfg_board_offline', 'class="inputbox" size="1"', 'value', 'text', $this->config->board_offline );
-		$lists ['pubwrite'] = JHtml::_ ( 'select.genericlist', $yesno, 'cfg_pubwrite', 'class="inputbox" size="1"', 'value', 'text', $this->config->pubwrite );
 		$lists ['useredit'] = JHtml::_ ( 'select.genericlist', $yesno, 'cfg_useredit', 'class="inputbox" size="1"', 'value', 'text', $this->config->useredit );
 		$lists ['showhistory'] = JHtml::_ ( 'select.genericlist', $yesno, 'cfg_showhistory', 'class="inputbox" size="1"', 'value', 'text', $this->config->showhistory );
 		$lists ['showannouncement'] = JHtml::_ ( 'select.genericlist', $yesno, 'cfg_showannouncement', 'class="inputbox" size="1"', 'value', 'text', $this->config->showannouncement );

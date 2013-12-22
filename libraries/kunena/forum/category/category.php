@@ -1133,14 +1133,10 @@ class KunenaForumCategory extends KunenaDatabaseObject {
 	/**
 	 * @param KunenaUser $user
 	 *
-	 * @return KunenaExceptionAuthorise|null
+	 * @return null
 	 */
 	protected function authoriseGuestWrite(KunenaUser $user) {
-		// Check if user is guest and they can create or reply topics
-		if ($user->userid == 0 && !KunenaFactory::getConfig()->pubwrite) {
-			return new KunenaExceptionAuthorise(JText::_('COM_KUNENA_POST_ERROR_ANONYMOUS_FORBITTEN'), 401);
-		}
-		return null;
+		return;
 	}
 
 	/**

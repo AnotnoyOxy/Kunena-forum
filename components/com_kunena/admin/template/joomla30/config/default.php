@@ -550,11 +550,6 @@ if (version_compare(JVERSION, '3.2', '>'))
 										</thead>
 										<tbody>
 											<tr>
-												<td><?php echo JText::_('COM_KUNENA_A_PUBWRITE') ?></td>
-												<td><?php echo $this->lists ['pubwrite'] ?></td>
-												<td><?php echo JText::_('COM_KUNENA_A_PUBWRITE_DESC') ?></td>
-											</tr>
-											<tr>
 												<td><?php echo JText::_('COM_KUNENA_A_HOLD_GUEST_POSTS') ?></td>
 												<td><?php echo $this->lists ['hold_guest_posts'] ?></td>
 												<td><?php echo JText::_('COM_KUNENA_A_HOLD_GUEST_POSTS_DESC') ?></td>

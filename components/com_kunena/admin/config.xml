@@ -812,18 +812,6 @@
 	</fieldset>
 	<fieldset name="security" label="COM_KUNENA_SYS_FIELDSET_LABEL_SECURITY" description="JCONFIG_PERMISSIONS_DESC">
 		<field
-				name="cfg_enable_pubwrite"
-				type="radio"
-				class="btn-group"
-				default="0"
-				label="COM_KUNENA_SYS_FIELD_LABEL_SECURITYPUBWRITE"
-				description="COM_KUNENA_SYS_FIELD_DESC_SECURITYPUBWRITE">
-			<option
-					value="0">JNO</option>
-			<option
-					value="1">JYES</option>
-		</field>
-		<field
 				name="cfg_enable_holdguestposts"
 				type="radio"
 				class="btn-group"

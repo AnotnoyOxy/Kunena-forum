@@ -59,7 +59,6 @@ class KunenaConfig extends JObject {
 	public $maxsubject = 50;
 	public $maxsig = 300;
 	public $regonly = 0;
-	public $pubwrite = 0;
 	public $floodprotection = 0;
 	public $mailmod = 0;
 	public $mailadmin = 0;
